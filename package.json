@@ -1,0 +1,11 @@
+{
+  "name": "vue-cli-plugin-boilerplate",
+  "version": "1.0.3",
+  "description": "a plugin for vue cli v3 to set up a vue scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "monster1935",
+  "license": "MIT"
+}

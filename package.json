@@ -2,6 +2,13 @@
   "name": "vue-cli-plugin-boilerplate",
   "version": "1.0.3",
   "description": "a plugin for vue cli v3 to set up a vue scaffold",
+  "keywords": [
+    "vue-cli v3",
+    "vue-cli",
+    "vue-cli-plugin-boilerplate",
+    "boilerplate",
+    "scaffolding"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

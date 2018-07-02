@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-boilerplate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a plugin for vue cli v3 to set up a vue scaffold",
   "keywords": [
     "vue-cli v3",

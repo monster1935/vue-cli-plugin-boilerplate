@@ -1,5 +1,3 @@
-const utils = require('./utils.js');
-
 module.exports = (api, options) => {
 
   /** render fixed config templates */

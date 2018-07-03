@@ -1,7 +1,5 @@
 module.exports = (api, options) => {
-  console.log('vue-boilplate-plugin');
   if (options.svgIcon) {
-    console.log('config webpack')
     const svgoLoaderConfig = require('svg-sprite-icon/svgo-loader.conf');
     api.chainWebpack(webpackConfig => {
       const svgRule = webpackConfig.module

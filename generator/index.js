@@ -1,6 +1,6 @@
 module.exports = (api, options) => {
 
-  require('./default');
+  require('./default')(api, options);
   /** render options config templates */
   // 1. 是否开启element ui 组件库
   if (options.elementUI) {

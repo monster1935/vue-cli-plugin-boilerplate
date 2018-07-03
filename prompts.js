@@ -23,4 +23,10 @@ module.exports = [
     message: 'whether to install vue-meta',
     default: true,
   },
+  {
+    type: 'confirm',
+    name: 'svgIcon',
+    message: 'whether to install svg-icon',
+    default: true,
+  },
 ];

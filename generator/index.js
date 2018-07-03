@@ -18,4 +18,8 @@ module.exports = (api, options) => {
   if (options.vueMeta) {
     require('./vue-meta')(api, options);
   }
+  // 5. 是否开启 svg-icon
+  if (options.svgIcon) {
+    require('./svg-icon')(api, options);
+  }
 };

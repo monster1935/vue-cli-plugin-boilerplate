@@ -1,6 +1,8 @@
 const utils = require('../utils');
 
 module.exports = (api, options) => {
+  api.render('./template');
+  
   api.injectImports(api.entryFile, `import SvgIcon from 'svg-sprite-icon';`);
 
   api.postProcessFiles(files => {

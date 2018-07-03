@@ -1,7 +1,7 @@
 const utils = require('../utils');
 
 module.exports = (api, options) => {
-  api.injectImports(api.entryFiles, `import SvgIcon from 'svg-sprite-icon;`);
+  api.injectImports(api.entryFile, `import SvgIcon from 'svg-sprite-icon;`);
 
   api.postProcessFiles(files => {
     utils.injectOtherContents(api, files, 'Vue.use(SvgIcon);');

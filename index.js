@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = (api, options) => {
   // add svg-icon webpack config
   const svgoLoaderConfig = require('svg-sprite-icon/svgo-loader.conf');
